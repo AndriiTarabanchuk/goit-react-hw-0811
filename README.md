@@ -1,3 +1,13 @@
+# npm i yup
+
+# npn i clsx
+
+# npm i react-icons
+
+# npm i formik
+
+# npm i axios
+
 # https://gist.github.com/luxplanjay/6f6936b1bba7afe006fa9317b07b6045
 
 # npm i react-router-dom

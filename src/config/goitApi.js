@@ -1,13 +1,13 @@
 import axios from "axios";
 
 export const goitApi = axios.create({
-  baseURL: "http://task-manager-api.goit.global/",
+  baseURL: "https://connections-api.goit.global/",
 });
 
 export const setToken = (token) => {
-  goitApi.default.header.common.Autorization = `Bearer ${token}`;
+  goitApi.defaults.headers.common.Authorization = `Bearer ${token}`;
 };
 
 export const clearToken = (token) => {
-  goitApi.default.header.common.Autorization = ``;
+  goitApi.defaults.headers.common.Authorization = ``;
 };
